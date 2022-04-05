@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1> Hello My Name Is Uriel</h1>
-    
-</body>
+<html>
+	<head>
+		<title> HTML cheat sheet</title>
+	</head>
+	<body>
+		<h1> heading one</h1>
+		<h2> heading two</h2>
+		<h3> heading three</h3>
+		<h4> heading four</h4>
+		<h5> heading five</h5>
+		<h6> heading six</h6>
+
+		<! - - paragraph - - >
+		<p>
+
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		</p>
+
+		<! -  - lists - ->
+		<ul>
+			<li>list item 1</li>
+			<li>list item 2</li>
+			<li>list item 3</li>
+		</ul>
+
+		<ol>
+			<li>list item 1</li>
+			<li>list item 2</li>
+			<li>list item 3</li>
+		</ol>
+
+		<! - - table - ->
+			<table>
+				<thead>
+					<tr>
+						<th>name</th>
+						<th>email</th>
+						<th>age</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Uriel Banuelos</td>
+						<td>uriel@gmail.com</td>
+						<td>26</td>
+					</tr>
+					<tr>
+						<td>Hunter Peoples</td>
+						<td>Hunter@gmail.com</td>
+						<td>26</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<! - - form - - >
+			<form action="process.php" method="POST">
+				<div>
+					<label> first name</label>
+					<input type="text" name="firstname" placeholder="enter first name">
+				</div>
+				<br>
+				<div>
+					<label> last name</label>
+					<input type="text" name="lastname" placeholder="enter last name">
+				</div>
+				<br>
+				<div>
+					<label> Email</label>
+					<input type="email" name="email">
+				</div>
+				<br>
+				<div>
+					<label> message</label>
+					<textarea name="message"></textarea>
+				</div>
+				<br>
+				<div>
+					<label> gender</label>
+					<select name="gender">
+						<option value="male">male</option>
+						<option value="female">female</option>
+						<option value="other">other</option>
+					</select>
+						
+				</div>
+				<br>
+					<div>
+						<label> age:</label>
+						<input type="number" name="age" value="30">
+					</div>
+					<br>
+					<div>
+						<label>birthday:</label>
+						<input type="date" name="birthday">
+					</div>
+					<br>
+					<input type="submit" name="submit" value="submit">
+			</form>
+
+			<! - - button - - >
+			<button>click</button>
+
+			<! - - image - - >
+			<img src="sample.jpg">
+
+			<div style="margin-top: 500px;"></div>
+	</body>
 </html>
